@@ -75,14 +75,16 @@ let a = 1,
 
 console.log(a,b,c,d,e,f, "\n4 5 1 2 6 3 "); 
 
-a = d; 
+a = d;
+
 d = b; 
-b = e; 
+b = e;
+e = f; 
+f = c;
 c = t;
 
-e = f; 
-f = c; 
-console.log(a,b,c,d,e,f);
+
+console.log(a,b,c,d,e,f);  
 
 
 
